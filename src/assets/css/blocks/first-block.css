@@ -1,0 +1,128 @@
+.first-block {
+   color: #ffffff;
+   font-weight: 300;
+}
+
+.first-block__title {
+   padding: 130px 85px 0;
+   font-size: 30px;
+}
+
+.first-block__list {
+   position: relative;
+   width: 600px;
+   height: 350px;
+   margin: 60px auto 0;
+   text-align: center;
+}
+
+.first-block__item {
+   position: absolute;
+}
+
+.first-block__item--first {
+   left: 45%;
+}
+
+.first-block__item--second {
+   bottom: 0;
+   left: 20px;
+}
+
+.first-block__item--third {
+   right: 0;
+   bottom: 0;
+}
+
+.first-block__item--main {
+   left: 31%;
+   bottom: -13px;
+   margin: 0;
+   padding: 33px 55px;
+   font-size: 20px;
+   border: 1px solid #ffffff;
+}
+
+.first-block__item h3 {
+   font-size: 36px;
+   font-weight: 300;
+}
+
+.first-block__item p {
+   margin: 0 0 15px;
+   font-size: 22px;
+   font-weight: 300;
+}
+
+.first-block__image {
+   width: 83px;
+   height: 83px;
+   background-color: #363c5d;
+   border-radius: 50%;
+   position: relative;
+}
+
+.first-block__image--beta img {
+   position: absolute;
+   top: 15%;
+   left: 30%;
+}
+
+.first-block__image--muscles img,
+.first-block__image--liver img {
+   position: absolute;
+   top: 25%;
+   left: 12%;
+}
+
+.first-block__item-arrow {
+   position: absolute;
+   height: 1px;
+   background: #ffffff;
+}
+
+.first-block__item-arrow:after {
+   position: absolute;
+   content: "";
+   width: 0; 
+   height: 0;
+   top: -2.5px; 
+   left: 100%;
+   border-width: 3px 0 3px 12px;
+   border-style: solid;
+   border-color: transparent #ffffff;
+}
+
+.first-block__item-arrow--beta-left {
+   bottom: -43px;
+   left: -185px;
+   width: 200px;
+   transform: rotate(137deg);
+}
+
+.first-block__item-arrow--beta-center {
+   bottom: -46px;
+   right: 10px;
+   width: 70px;
+   transform: rotate(90deg);
+}
+
+.first-block__item-arrow--beta-right {
+   bottom: -43px;
+   left: 64px;
+   width: 200px;
+   transform: rotate(43deg);
+}
+
+.first-block__item-arrow--muscles {
+   bottom: 31px;
+   left: 91px;
+   width: 49px;
+}
+
+.first-block__item-arrow--liver {
+   bottom: 31px;
+   left: -55px;
+   width: 49px;
+   transform: rotate(180deg);
+}

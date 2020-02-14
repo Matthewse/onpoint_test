@@ -1,3 +1,6 @@
 @import url('utility/base.css');
+@import url('blocks/page-main.css');
 @import url('blocks/first-slide.css');
 @import url('blocks/second-slide.css');
+@import url('blocks/third-slide.css');
+@import url('blocks/first-block.css');
