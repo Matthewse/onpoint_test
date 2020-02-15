@@ -1,4 +1,8 @@
 .first-block {
+   height: 90%;
+   flex: 0 0 100%;
+   scroll-snap-align: center;
+   position: relative;
    color: #ffffff;
    font-weight: 300;
 }

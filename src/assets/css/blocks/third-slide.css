@@ -5,3 +5,10 @@
    background-position: center;
    color: #0d319c;
 }
+
+.third-slide__wrapper {
+   display: flex;
+   height: 90%;
+   width: 100%;
+   overflow: hidden;
+}

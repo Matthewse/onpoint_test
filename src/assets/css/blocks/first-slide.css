@@ -3,6 +3,7 @@
    background-size: cover;
    background-position: center;
    color: #0d319c;
+   display: none;
 }
 
 .first-slide__title {
