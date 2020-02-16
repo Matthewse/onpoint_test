@@ -1,0 +1,242 @@
+.second-block {
+   height: 90%;
+   flex: 0 0 100%;
+   scroll-snap-align: center;
+   position: relative;
+   color: #ffffff;
+   font-weight: 300;
+}
+
+.second-block__title {
+   padding: 110px 85px 0;
+   font-size: 30px;
+   font-weight: 300;
+}
+
+.second-block__list {
+   position: relative;
+   width: 600px;
+   height: 350px;
+   margin: 60px auto 0;
+   text-align: center;
+}
+
+.second-block__item {
+   position: absolute;
+}
+
+.second-block__item--main {
+   left: 19%;
+   bottom: 93px;
+   margin: 0;
+   padding: 60px 125px;
+   font-size: 20px;
+   border: 1px solid #ffffff;
+}
+
+.second-block__item h3 {
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.second-block__item p {
+   margin: 0 0 8px;
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.second-block__item--first {
+   left: 45%;
+   top: -60px;
+}
+
+.second-block__item--second {
+   display: flex;
+   left: -8%;
+   top: 12px;
+}
+
+.second-block__item--second p {
+   margin: 10px;
+   width: 150px;
+   text-align: right;
+}
+
+.second-block__item--second h3 {
+   margin: 0 auto;
+   padding: 11px 21px;
+   background-color: rgba(132, 133, 141, 0.3);
+   border-radius: 50%;
+   position: relative;
+}
+
+.second-block__item--third {
+   display: flex;
+   left: 73%;
+   top: 12px;
+}
+
+.second-block__item--third h3 {
+   margin: 0 auto;
+   padding: 11px 21px;
+   background-color: rgba(132, 133, 141, 0.3);
+   border-radius: 50%;
+   position: relative;
+}
+
+.second-block__item--third p {
+   margin: 9px;
+   text-align: left;
+}
+
+.second-block__item--fourth {
+   display: flex;
+   left: 91%;
+   top: 155px;
+}
+
+.second-block__item--fourth-wrapper {
+   display: flex;
+   margin-left: 15px;
+   flex-direction: column;
+   text-align: left;
+}
+
+.second-block__item--fifth {
+   left: 72%;
+   bottom: -78px;
+}
+
+.second-block__item--sixth {
+   left: 45%;
+   bottom: -78px;
+}
+
+.second-block__item--seventh {
+   left: 18%;
+   bottom: -101px;
+}
+
+.second-block__item--seventh p {
+   width: 90px;
+}
+
+.second-block__item--eighth {
+   display: flex;
+   left: -10%;
+   top: 155px;
+}
+
+.second-block__item--eighth-wrapper {
+   display: flex;
+   margin-right: 15px;
+   flex-direction: column;
+   text-align: right;
+}
+
+.second-block__image {
+   margin: 0 auto;
+   width: 62px;
+   height: 62px;
+   background-color: rgba(132, 133, 141, 0.3);
+   border-radius: 50%;
+   position: relative;
+}
+
+.second-block__image--beta img {
+   position: absolute;
+   top: 13%;
+   left: 22%;
+}
+
+.second-block__image--muscles img,
+.second-block__image--liver img,
+.second-block__image--brain img,
+.second-block__image--fat img {
+   position: absolute;
+   top: 17%;
+   left: 10%;
+}
+
+.second-block__image--kidneys img {
+   position: absolute;
+   top: 10%;
+   left: 10%;
+}
+
+.second-block__item-arrow {
+   position: absolute;
+   height: 1px;
+   background: #ffffff;
+}
+
+.second-block__item-arrow:after {
+   position: absolute;
+   content: "";
+   width: 0; 
+   height: 0;
+   top: -2.5px; 
+   left: 100%;
+   border-width: 3px 0 3px 9px;
+   border-style: solid;
+   border-color: transparent #ffffff;
+}
+
+.second-block__item-arrow--beta {
+   bottom: -13px;
+   left: 27px;
+   width: 25px;
+   transform: rotate(90deg);
+}
+
+.second-block__item-arrow--two {
+   bottom: -12px;
+   left: 188px;
+   width: 24px;
+   transform: rotate(90deg);
+}
+
+.second-block__item-arrow--three {
+   bottom: -13px;
+   left: 19px;
+   width: 25px;
+   transform: rotate(90deg);
+}
+
+.second-block__item-arrow--fat {
+   bottom: 65px;
+   left: -27px;
+   width: 25px;
+   transform: rotate(180deg);
+}
+
+.second-block__item-arrow--muscles {
+   bottom: 150px;
+   left: 24px;
+   width: 25px;
+   transform: rotate(270deg);
+}
+
+.second-block__item-arrow--liver {
+   bottom: 150px;
+   left: 22px;
+   width: 25px;
+   transform: rotate(270deg);
+}
+
+.second-block__item-arrow--brain {
+   bottom: 173px;
+   left: 32px;
+   width: 25px;
+   transform: rotate(270deg);
+}
+
+.second-block__item-arrow--kidneys {
+   bottom: 37px;
+   left: 136px;
+   width: 25px;
+}
+
+.second-block__image--fat {
+   width: 84px;
+}

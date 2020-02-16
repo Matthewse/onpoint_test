@@ -3,14 +3,14 @@
    background-size: cover;
    background-position: center;
    color: #0d319c;
-   display: none;
+   font-weight: 400;
 }
 
 .first-slide__title {
    position: relative;
    max-width: 700px;
    padding: 140px 60px 0;
-   font-weight: 300;
+   font-weight: 400;
    font-size: 50px;
 }
 
