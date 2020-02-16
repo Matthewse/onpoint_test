@@ -10,20 +10,22 @@ const app = () => {
       rangeValue = range.value;
       values.push(rangeValue);
 
-      firstBlock.style.transition = "1s ease";
-      secondBlock.style.transition = "1s ease";
+      firstBlock.style.transition = "0.7s ease";
+      secondBlock.style.transition = "0.7s ease";
 
       if (values[values.length - 2] < rangeValue) {
          if (rangeValue > 25 && rangeValue < 75) {
             firstBlock.style.marginLeft = '-1024px';
          } else if (rangeValue > 75) {
             secondBlock.style.marginLeft = '-1024px';
+            firstBlock.style.marginLeft = '-1024px';
          }
       } else {
          if (rangeValue > 25 && rangeValue < 75) {
             secondBlock.style.marginLeft = '0';
          } else if (rangeValue < 75) {
             firstBlock.style.marginLeft = '0';
+            secondBlock.style.marginLeft = '0';
          }
       }
    })

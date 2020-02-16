@@ -1,0 +1,372 @@
+.third-block {
+   height: 90%;
+   flex: 0 0 100%;
+   scroll-snap-align: center;
+   position: relative;
+   color: #ffffff;
+   font-weight: 300;
+}
+
+.third-block__title {
+   padding: 110px 85px 0;
+   font-size: 30px;
+   font-weight: 300;
+}
+
+.third-block__list {
+   position: relative;
+   width: 900px;
+   height: 350px;
+   margin: 60px auto 0;
+   text-align: center;
+}
+
+.third-block__item {
+   position: absolute;
+}
+
+.third-block__item h3 {
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.third-block__item p {
+   margin: 0 0 3px;
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.third-block__item--first {
+   position: absolute;
+   left: 45%;
+   top: -77px;
+}
+
+.third-block__item--second {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   text-align: right;
+   left: 33%;
+   top: 150px;
+}
+
+.third-block__item--second p {
+   width: 155px;
+}
+
+.third-block__item--third {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   left: 54%;
+   top: 150px;
+}
+
+.third-block__item--third p {
+   width: 155px;
+}
+
+.third-block__item--third div {
+   font-size: 15px;
+}
+
+.third-block__item--first-wrapper {
+   display: flex;
+   margin: 10px 0 0;
+}
+
+.third-block__item--first-wrapper p {
+   font-size: 25px;
+   margin: 0 10px;
+   padding-top: 5px;
+}
+
+.third-block__item--group {
+   position: absolute;
+   top: 130px;
+   right: -5px;
+   width: 260px;
+   height: 300px;
+   border-radius: 50px;
+   background: linear-gradient(0deg, rgba(132, 133, 141, 0) 37%, rgba(132, 133, 141, 0.3) 100%);
+}
+
+.third-block__item--group ul {
+   position: relative;
+}
+
+.third-block__item--group-title {
+   padding-top: 15px;
+   font-size: 15px;
+   font-weight: 300;
+}
+
+.third-block__item--fourth {
+   display: flex;
+   right: 4%;
+   top: 230px;
+}
+
+.third-block__item--fourth-wrapper {
+   display: flex;
+   margin-left: 15px;
+   flex-direction: column;
+   text-align: left;
+}
+
+.third-block__item--fourth img {
+   padding-top: 10px;
+}
+
+.third-block__item--fifth {
+   display: flex;
+   right: 35%;
+   top: 140px;
+}
+
+.third-block__item--fifth-wrapper {
+   display: flex;
+   margin-left: 15px;
+   flex-direction: column;
+   text-align: left;
+}
+
+.third-block__item--fifth img {
+   padding-top: 15px;
+}
+
+.third-block__item--sixth {
+   display: flex;
+   right: 38%;
+   top: 50px;
+}
+
+.third-block__item--sixth-wrapper {
+   display: flex;
+   margin-left: 15px;
+   flex-direction: column;
+   text-align: left;
+}
+
+.third-block__item--sixth img {
+   padding-top: 15px;
+}
+
+.third-block__item--seventh {
+   display: flex;
+   right: 0;
+   top: 20px;
+}
+
+.third-block__item--seventh img {
+   padding-top: 10px;
+}
+
+.third-block__item--seventh-wrapper {
+   display: flex;
+   margin-left: 15px;
+   flex-direction: column;
+   text-align: left;
+}
+
+.third-block__item--seventh-wrapper p {
+   width: 150px;
+}
+
+.third-block__item--eighth {
+   display: flex;
+   left: 7%;
+   top: 20px;
+}
+
+.third-block__item--eighth img {
+   padding-top: 10px;
+}
+
+.third-block__item--eighth-wrapper {
+   display: flex;
+   margin-right: 15px;
+   flex-direction: column;
+   text-align: right;
+}
+
+.third-block__item--eighth-wrapper p {
+   width: 130px;
+}
+
+.third-block__item--nineth {
+   display: flex;
+   left: -3%;
+   top: 123px;
+}
+
+.third-block__item--nineth img {
+   padding-top: 10px;
+}
+
+.third-block__item--nineth-wrapper {
+   display: flex;
+   margin-right: 15px;
+   flex-direction: column;
+   text-align: right;
+}
+
+.third-block__item--nineth-wrapper p {
+   width: 220px;
+}
+
+.third-block__item--tenth {
+   display: flex;
+   left: -3%;
+   top: 259px;
+}
+
+.third-block__item--tenth img {
+   padding-top: 10px;
+}
+
+.third-block__item--tenth-wrapper {
+   display: flex;
+   margin-right: 15px;
+   flex-direction: column;
+   text-align: right;
+}
+
+.third-block__item--tenth-wrapper p {
+   width: 220px;
+}
+
+.third-block__item--eleventh {
+   display: flex;
+   left: 23%;
+   bottom: -80px;
+}
+
+.third-block__item--eleventh img {
+   padding-top: 5px;
+}
+
+.third-block__item--eleventh-wrapper {
+   display: flex;
+   margin-right: 15px;
+   flex-direction: column;
+   text-align: right;
+}
+
+.third-block__item--eleventh-wrapper p {
+   width: 220px;
+}
+
+.third-block__item--main {
+   left: 41%;
+   bottom: 20px;
+   font-size: 25px;
+}
+
+.third-block__image {
+   margin: 0 auto;
+   width: 62px;
+   height: 62px;
+   background-color: rgba(132, 133, 141, 0.3);
+   border-radius: 50%;
+   position: relative;
+}
+
+.third-block__image--beta img {
+   padding-top: 15px;
+}
+
+.third-block__image--beta {
+   width: 85px;
+   height: 85px;
+}
+
+.third-block__item-arrow {
+   position: absolute;
+   height: 1px;
+   background: #ffffff;
+}
+
+.third-block__item-arrow:after {
+   position: absolute;
+   content: "";
+   width: 0; 
+   height: 0;
+   top: -2.5px; 
+   left: 100%;
+   border-width: 3px 0 3px 9px;
+   border-style: solid;
+   border-color: transparent #ffffff;
+}
+
+.third-block__item-arrow--microflora-up {
+   bottom: 82px;
+   left: 224px;
+   width: 120px;
+   transform: rotate(-9deg);
+}
+
+.third-block__item-arrow--microflora-down {
+   bottom: 92px;
+   left: 231px;
+   width: 120px;
+   transform: rotate(-189deg);
+}
+
+.third-block__item-arrow--brain-up {
+   bottom: 58px;
+   right: 240px;
+   width: 120px;
+   transform: rotate(189deg);
+}
+
+.third-block__item-arrow--brain-down {
+   bottom: 68px;
+   right: 248px;
+   width: 120px;
+   transform: rotate(9deg);
+}
+
+.third-block__item-arrow--inflammation-up {
+   bottom: 121px;
+   left: 302px;
+   width: 160px;
+   transform: rotate(-30deg);
+}
+
+.third-block__item-arrow--inflammation-down {
+   bottom: 131px;
+   left: 302px;
+   width: 160px;
+   transform: rotate(150deg);
+}
+
+.third-block__item-arrow--group-up {
+   bottom: 342px;
+   right: 230px;
+   width: 160px;
+   transform: rotate(-150deg);
+}
+
+.third-block__item-arrow--group-down {
+   bottom: 338px;
+   right: 242px;
+   width: 160px;
+   transform: rotate(30deg)
+}
+
+.third-block__item-arrow--brain-up-short {
+   bottom: -20px;
+   right: 138px;
+   width: 16px;
+   transform: rotate(-90deg);
+}
+
+.third-block__item-arrow--brain-down-short {
+   bottom: -12px;
+   right: 125px;
+   width: 16px;
+   transform: rotate(90deg);
+}
