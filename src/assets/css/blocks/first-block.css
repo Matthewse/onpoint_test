@@ -4,6 +4,11 @@
    scroll-snap-align: center;
    position: relative;
    color: #ffffff;
+   transition: all 0.7s ease;
+}
+
+.first-block__invisible {
+   margin-left: -100%;
 }
 
 .first-block__title {

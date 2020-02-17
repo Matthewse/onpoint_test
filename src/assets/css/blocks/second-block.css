@@ -5,6 +5,11 @@
    position: relative;
    color: #ffffff;
    font-weight: 300;
+   transition: all 0.7s ease;
+}
+
+.second-block__invisible {
+   margin-left: -100%;
 }
 
 .second-block__title {

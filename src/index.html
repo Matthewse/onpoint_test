@@ -15,11 +15,35 @@
       <section class="first-slide">
          <h1 class="first-slide__title">Всегда ли цели терапии СД2 на поверхности?</h1>
          <ul class="first-slide__list">
-            <li class="first-slide__item first-slide__item--first">Цель по HbA1c</li>
-            <li class="first-slide__item first-slide__item--second">Гипогликемия</li>
-            <li class="first-slide__item first-slide__item--third">Осложнения СД</li>
-            <li class="first-slide__item first-slide__item--fourth">СС риски</li>
+            <li class="first-slide__item first-slide__item--first">
+               Цель по HbA1c
+               <span class="first-slide__ring first-slide__ring--first"></span>
+               <span class="first-slide__ring first-slide__ring--first"></span>
+               <span class="first-slide__ring first-slide__ring--first"></span>
+            </li>
+            <li class="first-slide__item first-slide__item--second">
+               Гипогликемия
+               <span class="first-slide__ring first-slide__ring--second"></span>
+               <span class="first-slide__ring first-slide__ring--second"></span>
+               <span class="first-slide__ring first-slide__ring--second"></span>
+            </li>
+            <li class="first-slide__item first-slide__item--third">
+               Осложнения СД
+               <span class="first-slide__ring first-slide__ring--third"></span>
+               <span class="first-slide__ring first-slide__ring--third"></span>
+               <span class="first-slide__ring first-slide__ring--third"></span>
+            </li>
+            <li class="first-slide__item first-slide__item--fourth">
+               СС риски
+               <span class="first-slide__ring first-slide__ring--fourth"></span>
+               <span class="first-slide__ring first-slide__ring--fourth"></span>
+               <span class="first-slide__ring first-slide__ring--fourth"></span>
+            </li>
          </ul>
+         <div class="first-slide__scroll">
+            <p class="first-slide__scroll-title">Листайте вниз</p>
+            <span></span>
+         </div>
       </section>
       <section class="second-slide">
          <h1 class="second-slide__title">Основа терапии — патогенез СД2</h1>
@@ -141,15 +165,21 @@
                      <div class="third-block__image third-block__image--beta">
                         <img src="../assets/img/beta.png" width="32px" height="61px" alt="beta">
                      </div>
+                     <span class="third-block__item-arrow third-block__item-arrow--beta"></span>
                   </li>
                   <li class="third-block__item third-block__item--second">
                      <h3>2</h3>
                      <p>&darr; инкретинового эффекта</p>
+                     <span class="third-block__item-arrow third-block__item-arrow--second-to"></span>
+                     <span class="third-block__item-arrow third-block__item-arrow--second-from"></span>
                   </li>
                   <li class="third-block__item third-block__item--third">
                      <h3>3</h3>
                      <p>Дефект &alpha;-клеток</p>
                      <div>&uarr; глюкагон</div>
+                     <span class="third-block__item-arrow third-block__item-arrow--third-to"></span>
+                     <span class="third-block__item-arrow third-block__item-arrow--third-short"></span>
+                     <span class="third-block__item-arrow third-block__item-arrow--third-from"></span>
                   </li>
                   <li class="third-block__item third-block__item--group">
                      <span class="third-block__item-arrow third-block__item-arrow--group-up"></span>
@@ -223,6 +253,10 @@
                      </div>
                   </li>
                   <li class="third-block__item third-block__item--tenth">
+                     <span class="third-block__item-arrow third-block__item-arrow--stomach-to-sub-item"></span>
+                     <span class="third-block__item-arrow third-block__item-arrow--stomach-from-sub-down"></span>
+                     <span class="third-block__item-arrow third-block__item-arrow--stomach-from-sub-right"></span>
+                     <div class="third-block__item--tenth-sub-item">&darr; амилин</div>
                      <div class="third-block__item--tenth-wrapper">
                         <h3>10</h3>
                         <p>Желудок</p>
@@ -230,6 +264,7 @@
                      <div class="third-block__image third-block__image--stomach">
                         <img src="../assets/img/stomach.png" width="46px" height="42px" alt="stomach">
                      </div>
+                     <span class="third-block__item-arrow third-block__item-arrow--stomach-rigth"></span>
                   </li>
                   <li class="third-block__item third-block__item--eleventh">
                      <div class="third-block__item--eleventh-wrapper">
@@ -239,6 +274,8 @@
                      <div class="third-block__image third-block__image--kidneys">
                         <img src="../assets/img/kidneys.png" width="43px" height="46px" alt="kidneys">
                      </div>
+                     <span class="third-block__item-arrow third-block__item-arrow--third-up"></span>
+                     <span class="third-block__item-arrow third-block__item-arrow--third-down"></span>
                   </li>
                   <li class="third-block__item third-block__item--main">
                      <div>Гипергликемия</div>
@@ -246,8 +283,17 @@
                </ul>
             </div>
          </div>
-         <div class="range-input">
-            <input type="range" id="range" min="0" max="100" step="1" value="0">
+         <div class="footer">
+            <div class="footer__range-input">
+               <input type="range" id="range" min="0" max="100" step="1" value="0">
+            </div>
+            <div class="footer__years">
+               <ul class="footer__years-list">
+                  <li class="footer__years-item">1988</li>
+                  <li class="footer__years-item">2009</li>
+                  <li class="footer__years-item">2016</li>
+               </ul>
+            </div>
          </div>
       </section>
    </main>

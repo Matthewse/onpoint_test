@@ -38,7 +38,7 @@
 
 .third-block__item--first {
    position: absolute;
-   left: 45%;
+   left: 44.6%;
    top: -77px;
 }
 
@@ -70,6 +70,7 @@
 
 .third-block__item--third div {
    font-size: 15px;
+   margin-top: 20px;
 }
 
 .third-block__item--first-wrapper {
@@ -220,7 +221,7 @@
 .third-block__item--tenth {
    display: flex;
    left: -3%;
-   top: 259px;
+   top: 275px;
 }
 
 .third-block__item--tenth img {
@@ -232,6 +233,13 @@
    margin-right: 15px;
    flex-direction: column;
    text-align: right;
+}
+
+.third-block__item--tenth-sub-item {
+   position: absolute;
+   left: 231px;
+   bottom: 97px;
+   font-size: 15px;
 }
 
 .third-block__item--tenth-wrapper p {
@@ -369,4 +377,94 @@
    right: 125px;
    width: 16px;
    transform: rotate(90deg);
+}
+
+.third-block__item-arrow--second-to {
+   bottom: 140px;
+   right: -29px;
+   width: 70px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--second-from {
+   bottom: -24px;
+   right: -17px;
+   width: 45px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--beta {
+   bottom: -119px;
+   right: -38px;
+   width: 220px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--beta {
+   bottom: -119px;
+   right: -38px;
+   width: 220px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--third-to {
+   bottom: 153px;
+   right: 112px;
+   width: 70px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--third-short {
+   bottom: 31px;
+   right: 142px;
+   width: 8px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--third-from {
+   bottom: -21px;
+   right: 135px;
+   width: 23px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--third-up {
+   bottom: 81px;
+   right: 41px;
+   width: 15px;
+   transform: rotate(-90deg);
+}
+
+.third-block__item-arrow--third-down {
+   bottom: 89px;
+   right: 14px;
+   width: 15px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--stomach-to-sub-item {
+   bottom: 202px;
+   left: 252px;
+   width: 240px;
+   transform: rotate(139deg);
+}
+
+.third-block__item-arrow--stomach-from-sub-down {
+   bottom: 89px;
+   left: 262px;
+   width: 10px;
+   transform: rotate(90deg);
+}
+
+.third-block__item-arrow--stomach-from-sub-right {
+   bottom: 68px;
+   left: 291px;
+   width: 86px;
+   transform: rotate(28deg);
+}
+
+.third-block__item-arrow--stomach-rigth {
+   bottom: 32px;
+   left: 311px;
+   width: 60px;
 }

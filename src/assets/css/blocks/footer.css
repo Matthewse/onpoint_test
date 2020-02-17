@@ -1,0 +1,38 @@
+.footer__range-input {
+   text-align: center;
+}
+
+input[type='range'] {
+   -webkit-appearance: none;
+   width: 650px;
+   opacity: 0.9;
+   height: 15px;
+   border-radius: 2px;
+   background-color: #435063;
+   outline: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 43px;
+   height: 55px;
+   background: url(../../img/thumb.png) center no-repeat;
+   background-size: 43px 55px;
+}
+
+.footer__years {
+   width: 650px;
+   margin: 0 auto;
+}
+
+.footer__years-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__years-item {
+   padding-top: 20px;
+   font-size: 20px;
+   color: #ffffff;
+}
