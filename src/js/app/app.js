@@ -24,6 +24,8 @@ const app = () => {
             secondBlock.classList.remove('second-block__invisible');
          }
       }
+
+      rangeInput.style.background = `-webkit-linear-gradient(left, #d1eaff 0%, #d1eaff ${rangeValue}%, #435063 ${rangeValue}%, #435063 100%)`;
    });
 }
 

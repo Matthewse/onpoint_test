@@ -5,10 +5,9 @@
 input[type='range'] {
    -webkit-appearance: none;
    width: 650px;
-   opacity: 0.9;
-   height: 15px;
+   height: 12px;
    border-radius: 2px;
-   background-color: #435063;
+   background: #435063;
    outline: none;
 }
 
