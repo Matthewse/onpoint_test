@@ -1,0 +1,32 @@
+.navigation {
+   position: fixed;
+   right: 12px;
+   top: 45%;
+   z-index: 1;
+}
+
+.navigation__dots {
+   width: 30px;
+   height: 30px;
+}
+
+.navigation__dots li {
+   margin: 7px;
+   width: 12px;
+   height: 12px;
+   background-color: #ffffff;
+   border-radius: 50%;
+   outline: none;
+}
+
+.navigation__dot {
+   display: block;
+   width: 12px;
+   height: 12px;
+   background-color: #ffffff;
+   border-radius: 50%;
+}
+
+.active {
+   background-color: #f78b1f;
+}

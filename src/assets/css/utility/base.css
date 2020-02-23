@@ -15,14 +15,14 @@ h6 {
 
 html {
    box-sizing: border-box;
+   scroll-behavior: smooth;
+   scroll-snap-type: y mandatory;
 }
 
 body {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
    color: #ffffff;
-   transform-style: preserve-3d;
-   perspective: 1px;
 }
 
 ul {

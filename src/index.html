@@ -7,12 +7,20 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap&subset=cyrillic,cyrillic-ext"
       rel="stylesheet">
    <link rel="stylesheet" href="assets/css/app.css">
+   <link rel="shortcut icon" href="#">
    <title>Onpoint_test</title>
 </head>
 
 <body>
    <main class="page-main">
-      <section class="first-slide">
+      <div class="navigation">
+         <ul class="navigation__dots">
+            <li><a href="#first-slide" class="navigation__dot active"></a></li>
+            <li><a href="#second-slide" class="navigation__dot"></a></li>
+            <li><a href="#third-slide" class="navigation__dot"></a></li>
+         </ul>
+      </div>
+      <section class="first-slide" id="first-slide">
          <h1 class="first-slide__title">Всегда ли цели терапии СД2 на поверхности?</h1>
          <ul class="first-slide__list">
             <li class="first-slide__item first-slide__item--first">
@@ -45,10 +53,10 @@
             <span></span>
          </div>
       </section>
-      <section class="second-slide">
+      <section class="second-slide" id="second-slide">
          <h1 class="second-slide__title">Основа терапии — патогенез СД2</h1>
       </section>
-      <section class="third-slide">
+      <section class="third-slide" id="third-slide">
          <div class="third-slide__wrapper">
             <div class="first-block">
                <h1 class="first-block__title">Звенья патогенеза СД2</h1>
