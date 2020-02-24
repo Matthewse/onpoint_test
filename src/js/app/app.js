@@ -2,11 +2,16 @@ const app = () => {
    const rangeInput = document.getElementById('range');
    const firstBlock = document.querySelector('.first-block');
    const secondBlock = document.querySelector('.second-block');
+   const scroll = document.querySelector('.first-slide__scroll');
    const navigationDots = document.querySelectorAll('.navigation__dot');
 
    const values = [0];
 
    window.addEventListener('scroll', () => {
+      window.scrollY > 5 ?
+         scroll.classList.add('first-slide__scroll-invisible') :
+         scroll.classList.remove('first-slide__scroll-invisible');
+
       navigationDots.forEach(elem => {
          elem.classList.remove('active');
 
